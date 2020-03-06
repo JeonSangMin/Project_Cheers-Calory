@@ -59,16 +59,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
         videoPreviewLayer.frame = view.layer.frame
         videoPreviewLayer.videoGravity = .resizeAspectFill
         view.layer.addSublayer(videoPreviewLayer)
-        
-//        qrCodeFrameView = UIView()
-//
-//        if let qrCodeFrameView = qrCodeFrameView {
-//            qrCodeFrameView.layer.borderColor = UIColor.green.cgColor
-//            qrCodeFrameView.layer.borderWidth = 2
-//            view.addSubview(qrCodeFrameView)
-//            view.bringSubview(toFront: qrCodeFrameView)
-//        }
-        
+                
     }
     
     func failed() {
@@ -105,7 +96,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     }
     
     func found(code: String) {
-        
+        print(code)
     }
     
     override var prefersStatusBarHidden: Bool {
