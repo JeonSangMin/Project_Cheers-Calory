@@ -9,15 +9,22 @@
 /* Begin PBXBuildFile section */
 		52723B25F7EF82971B7ED75C /* Pods_FirebaseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C12FAD2872B109F851BD0B /* Pods_FirebaseTest.framework */; };
 		F49D02702410D6200093721B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D026F2410D6200093721B /* AppDelegate.swift */; };
-		F49D02722410D6200093721B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D02712410D6200093721B /* SceneDelegate.swift */; };
 		F49D02742410D6200093721B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D02732410D6200093721B /* ViewController.swift */; };
-		F49D02772410D6200093721B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D02752410D6200093721B /* Main.storyboard */; };
 		F49D02792410D6270093721B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D02782410D6270093721B /* Assets.xcassets */; };
 		F49D027C2410D6270093721B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D027A2410D6270093721B /* LaunchScreen.storyboard */; };
 		F49D02842410D73A0093721B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F49D02832410D73A0093721B /* GoogleService-Info.plist */; };
 		F49D02862410E5940093721B /* FoodCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D02852410E5940093721B /* FoodCodable.swift */; };
 		F49D02882410F62B0093721B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D02872410F62B0093721B /* Food.swift */; };
-		F49D028A24110FFF0093721B /* foods.json in Resources */ = {isa = PBXBuildFile; fileRef = F49D028924110FFF0093721B /* foods.json */; };
+		F4B203582412689000E8EB36 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B203572412689000E8EB36 /* CameraViewController.swift */; };
+		F4DC6B472415E21C004B9A6E /* SetRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B462415E21B004B9A6E /* SetRootViewController.swift */; };
+		F4DC6B492415E241004B9A6E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B482415E241004B9A6E /* MainViewController.swift */; };
+		F4DC6B4B2415E25F004B9A6E /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B4A2415E25F004B9A6E /* UserInfo.swift */; };
+		F4DC6B4D2415E27B004B9A6E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B4C2415E27B004B9A6E /* StartViewController.swift */; };
+		F4DC6B4F2415E299004B9A6E /* PhysicalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */; };
+		F4DC6B512415E2AD004B9A6E /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */; };
+		F4DC6B532415E2CC004B9A6E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B522415E2CC004B9A6E /* RecordViewController.swift */; };
+		F4DC6B552415E2F1004B9A6E /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B542415E2F1004B9A6E /* UIExtensions.swift */; };
+		F4DC6B7C241625C7004B9A6E /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B7B241625C7004B9A6E /* DAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,16 +33,24 @@
 		D4899D3D0F785B748E1C935C /* Pods-FirebaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTest.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTest/Pods-FirebaseTest.release.xcconfig"; sourceTree = "<group>"; };
 		F49D026C2410D6200093721B /* FirebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D026F2410D6200093721B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F49D02712410D6200093721B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F49D02732410D6200093721B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F49D02762410D6200093721B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49D02782410D6270093721B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49D027B2410D6270093721B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49D027D2410D6270093721B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49D02832410D73A0093721B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F49D02852410E5940093721B /* FoodCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCodable.swift; sourceTree = "<group>"; };
 		F49D02872410F62B0093721B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
-		F49D028924110FFF0093721B /* foods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = foods.json; path = ../../../../../Downloads/foods.json; sourceTree = "<group>"; };
+		F4B203572412689000E8EB36 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F4DC6B462415E21B004B9A6E /* SetRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetRootViewController.swift; sourceTree = "<group>"; };
+		F4DC6B482415E241004B9A6E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4DC6B4A2415E25F004B9A6E /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		F4DC6B4C2415E27B004B9A6E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalSettingViewController.swift; sourceTree = "<group>"; };
+		F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		F4DC6B522415E2CC004B9A6E /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		F4DC6B542415E2F1004B9A6E /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		F4DC6B572415E3E3004B9A6E /* foods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = foods.json; sourceTree = "<group>"; };
+		F4DC6B7B241625C7004B9A6E /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,19 +103,43 @@
 		F49D026E2410D6200093721B /* FirebaseTest */ = {
 			isa = PBXGroup;
 			children = (
-				F49D028924110FFF0093721B /* foods.json */,
-				F49D026F2410D6200093721B /* AppDelegate.swift */,
-				F49D02712410D6200093721B /* SceneDelegate.swift */,
-				F49D02732410D6200093721B /* ViewController.swift */,
-				F49D02752410D6200093721B /* Main.storyboard */,
+				F4DC6B582415E4AC004B9A6E /* ViewControllers */,
+				F4DC6B562415E3DB004B9A6E /* Models */,
 				F49D02782410D6270093721B /* Assets.xcassets */,
-				F49D027A2410D6270093721B /* LaunchScreen.storyboard */,
-				F49D027D2410D6270093721B /* Info.plist */,
+				F49D026F2410D6200093721B /* AppDelegate.swift */,
 				F49D02832410D73A0093721B /* GoogleService-Info.plist */,
-				F49D02852410E5940093721B /* FoodCodable.swift */,
-				F49D02872410F62B0093721B /* Food.swift */,
+				F49D027D2410D6270093721B /* Info.plist */,
+				F49D027A2410D6270093721B /* LaunchScreen.storyboard */,
 			);
 			path = FirebaseTest;
+			sourceTree = "<group>";
+		};
+		F4DC6B562415E3DB004B9A6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4DC6B7B241625C7004B9A6E /* DAO.swift */,
+				F4DC6B542415E2F1004B9A6E /* UIExtensions.swift */,
+				F4DC6B4A2415E25F004B9A6E /* UserInfo.swift */,
+				F4DC6B462415E21B004B9A6E /* SetRootViewController.swift */,
+				F49D02872410F62B0093721B /* Food.swift */,
+				F49D02852410E5940093721B /* FoodCodable.swift */,
+				F4DC6B572415E3E3004B9A6E /* foods.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4DC6B582415E4AC004B9A6E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4B203572412689000E8EB36 /* CameraViewController.swift */,
+				F49D02732410D6200093721B /* ViewController.swift */,
+				F4DC6B482415E241004B9A6E /* MainViewController.swift */,
+				F4DC6B4C2415E27B004B9A6E /* StartViewController.swift */,
+				F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */,
+				F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */,
+				F4DC6B522415E2CC004B9A6E /* RecordViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +205,6 @@
 				F49D027C2410D6270093721B /* LaunchScreen.storyboard in Resources */,
 				F49D02842410D73A0093721B /* GoogleService-Info.plist in Resources */,
 				F49D02792410D6270093721B /* Assets.xcassets in Resources */,
-				F49D02772410D6200093721B /* Main.storyboard in Resources */,
-				F49D028A24110FFF0093721B /* foods.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,25 +257,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DC6B7C241625C7004B9A6E /* DAO.swift in Sources */,
+				F4DC6B492415E241004B9A6E /* MainViewController.swift in Sources */,
 				F49D02742410D6200093721B /* ViewController.swift in Sources */,
+				F4DC6B552415E2F1004B9A6E /* UIExtensions.swift in Sources */,
+				F4DC6B512415E2AD004B9A6E /* DailyViewController.swift in Sources */,
+				F4DC6B532415E2CC004B9A6E /* RecordViewController.swift in Sources */,
+				F4B203582412689000E8EB36 /* CameraViewController.swift in Sources */,
 				F49D02862410E5940093721B /* FoodCodable.swift in Sources */,
+				F4DC6B4F2415E299004B9A6E /* PhysicalSettingViewController.swift in Sources */,
+				F4DC6B4B2415E25F004B9A6E /* UserInfo.swift in Sources */,
+				F4DC6B4D2415E27B004B9A6E /* StartViewController.swift in Sources */,
 				F49D02882410F62B0093721B /* Food.swift in Sources */,
 				F49D02702410D6200093721B /* AppDelegate.swift in Sources */,
-				F49D02722410D6200093721B /* SceneDelegate.swift in Sources */,
+				F4DC6B472415E21C004B9A6E /* SetRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F49D02752410D6200093721B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F49D02762410D6200093721B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F49D027A2410D6270093721B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

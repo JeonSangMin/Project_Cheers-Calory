@@ -1,8 +1,8 @@
 //
 //  UserInfo.swift
-//  SwitchRootViewController
+//  FirebaseTest
 //
-//  Created by MyMac on 2020/03/04.
+//  Created by MyMac on 2020/03/09.
 //  Copyright © 2020 sandMan. All rights reserved.
 //
 
