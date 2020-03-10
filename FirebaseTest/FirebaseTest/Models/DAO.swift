@@ -42,15 +42,7 @@ class DAO {
                             }) { (error) in
                 print(error.localizedDescription)
             }
-        
-        
         }
-        
-        
-        
-        
-        
-        
         //        ref.child("foods").observeSingleEvent(of: .value, with: {(snapshot) in
         //            guard let value = snapshot.value as? NSDictionary else { return }
         //

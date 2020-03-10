@@ -29,7 +29,7 @@ class DailyTableViewCell: UITableViewCell {
      // MARK: - setup
      private func setupUI() {
        [foodName, foodBase, foodkcal].forEach {
-         self.addSubview($0)
+         contentView.addSubview($0)
          $0.translatesAutoresizingMaskIntoConstraints = false
        }
        
@@ -42,11 +42,11 @@ class DailyTableViewCell: UITableViewCell {
      private func setupConstraint() {
        NSLayoutConstraint.activate([
          foodName.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-         foodName.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+         foodName.centerYAnchor.constraint(equalTo: contentView.centerYAnchor, constant: -10),
        ])
        NSLayoutConstraint.activate([
-         foodBase.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-         foodBase.topAnchor.constraint(equalTo: contentView.centerYAnchor, constant: 8),
+        foodBase.topAnchor.constraint(equalTo: foodName.bottomAnchor, constant: 5),
+        foodBase.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
        ])
        NSLayoutConstraint.activate([
          foodkcal.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -24),

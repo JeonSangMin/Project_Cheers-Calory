@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52723B25F7EF82971B7ED75C /* Pods_FirebaseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C12FAD2872B109F851BD0B /* Pods_FirebaseTest.framework */; };
-		F490219324175AA60027DED4 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490219224175AA60027DED4 /* GraphViewController.swift */; };
+		F490219324175AA60027DED4 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490219224175AA60027DED4 /* RecordViewController.swift */; };
 		F4902195241763B90027DED4 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4902194241763B90027DED4 /* Daily.swift */; };
 		F49D02702410D6200093721B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D026F2410D6200093721B /* AppDelegate.swift */; };
 		F49D02742410D6200093721B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D02732410D6200093721B /* ViewController.swift */; };
@@ -22,6 +22,8 @@
 		F4A93E8E2417AEC0000370AA /* DailySectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A93E872417AEC0000370AA /* DailySectionHeaderView.swift */; };
 		F4A93E8F2417AEC0000370AA /* FoodHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A93E882417AEC0000370AA /* FoodHeaderView.swift */; };
 		F4A93E912417AEC0000370AA /* RecordHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A93E8A2417AEC0000370AA /* RecordHeaderView.swift */; };
+		F4A93E932417BD81000370AA /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A93E922417BD81000370AA /* DailyTableViewCell.swift */; };
+		F4A93E952417C29B000370AA /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A93E942417C29B000370AA /* RecordTableViewCell.swift */; };
 		F4B203582412689000E8EB36 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B203572412689000E8EB36 /* CameraViewController.swift */; };
 		F4DC6B472415E21C004B9A6E /* SetRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B462415E21B004B9A6E /* SetRootViewController.swift */; };
 		F4DC6B492415E241004B9A6E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B482415E241004B9A6E /* MainViewController.swift */; };
@@ -38,7 +40,7 @@
 		27C12FAD2872B109F851BD0B /* Pods_FirebaseTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		404065FD874B57C96F23BA2D /* Pods-FirebaseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTest.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTest/Pods-FirebaseTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D4899D3D0F785B748E1C935C /* Pods-FirebaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTest.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTest/Pods-FirebaseTest.release.xcconfig"; sourceTree = "<group>"; };
-		F490219224175AA60027DED4 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		F490219224175AA60027DED4 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		F4902194241763B90027DED4 /* Daily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily.swift; sourceTree = "<group>"; };
 		F49D026C2410D6200093721B /* FirebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D026F2410D6200093721B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,13 +51,13 @@
 		F49D02832410D73A0093721B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F49D02852410E5940093721B /* FoodCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCodable.swift; sourceTree = "<group>"; };
 		F49D02872410F62B0093721B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
-		F4A93E822417AA83000370AA /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
-		F4A93E832417AA88000370AA /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		F4A93E852417AEC0000370AA /* DailyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
 		F4A93E862417AEC0000370AA /* RecordGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordGraphView.swift; sourceTree = "<group>"; };
 		F4A93E872417AEC0000370AA /* DailySectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailySectionHeaderView.swift; sourceTree = "<group>"; };
 		F4A93E882417AEC0000370AA /* FoodHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodHeaderView.swift; sourceTree = "<group>"; };
 		F4A93E8A2417AEC0000370AA /* RecordHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordHeaderView.swift; sourceTree = "<group>"; };
+		F4A93E922417BD81000370AA /* DailyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
+		F4A93E942417C29B000370AA /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		F4B203572412689000E8EB36 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F4DC6B462415E21B004B9A6E /* SetRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetRootViewController.swift; sourceTree = "<group>"; };
 		F4DC6B482415E241004B9A6E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -147,8 +149,8 @@
 		F4A93E812417AA77000370AA /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				F4A93E822417AA83000370AA /* DailyTableViewCell.swift */,
-				F4A93E832417AA88000370AA /* RecordTableViewCell.swift */,
+				F4A93E922417BD81000370AA /* DailyTableViewCell.swift */,
+				F4A93E942417C29B000370AA /* RecordTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -178,7 +180,7 @@
 				F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */,
 				F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */,
 				F4DC6B522415E2CC004B9A6E /* FoodSearchViewController.swift */,
-				F490219224175AA60027DED4 /* GraphViewController.swift */,
+				F490219224175AA60027DED4 /* RecordViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -305,16 +307,18 @@
 				F49D02742410D6200093721B /* ViewController.swift in Sources */,
 				F4DC6B552415E2F1004B9A6E /* UIExtensions.swift in Sources */,
 				F4DC6B512415E2AD004B9A6E /* DailyViewController.swift in Sources */,
+				F4A93E932417BD81000370AA /* DailyTableViewCell.swift in Sources */,
 				F4DC6B532415E2CC004B9A6E /* FoodSearchViewController.swift in Sources */,
 				F4B203582412689000E8EB36 /* CameraViewController.swift in Sources */,
 				F49D02862410E5940093721B /* FoodCodable.swift in Sources */,
 				F4DC6B4F2415E299004B9A6E /* PhysicalSettingViewController.swift in Sources */,
 				F4902195241763B90027DED4 /* Daily.swift in Sources */,
+				F4A93E952417C29B000370AA /* RecordTableViewCell.swift in Sources */,
 				F4DC6B4B2415E25F004B9A6E /* UserInfo.swift in Sources */,
 				F4DC6B4D2415E27B004B9A6E /* StartViewController.swift in Sources */,
 				F4A93E8D2417AEC0000370AA /* RecordGraphView.swift in Sources */,
 				F49D02882410F62B0093721B /* Food.swift in Sources */,
-				F490219324175AA60027DED4 /* GraphViewController.swift in Sources */,
+				F490219324175AA60027DED4 /* RecordViewController.swift in Sources */,
 				F49D02702410D6200093721B /* AppDelegate.swift in Sources */,
 				F4DC6B472415E21C004B9A6E /* SetRootViewController.swift in Sources */,
 				F4A93E8F2417AEC0000370AA /* FoodHeaderView.swift in Sources */,

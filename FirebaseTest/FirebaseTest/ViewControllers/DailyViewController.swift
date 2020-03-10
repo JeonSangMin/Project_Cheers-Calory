@@ -69,7 +69,7 @@ class DailyViewController: UIViewController {
 extension DailyViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4 
+        return 4
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -117,8 +117,8 @@ extension DailyViewController: UITableViewDataSource {
         }
         
         cell.foodName.text = name
-        cell.foodBase.text = calory
-        cell.foodBase.text = base
+        cell.foodBase.text = "\(base)(g)"
+        cell.foodkcal.text = "\(calory) kcal"
         return cell
     }
     
@@ -129,8 +129,21 @@ extension DailyViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = DailySectionHeaderView()
         view.section = section
-        view.backgroundColor = .orange
+        view.backgroundColor = .lightGray
         view.delegate = self
+        switch section {
+        case 0:
+            view.foodLabel.text = "아침" as String
+        case 1:
+            view.foodLabel.text = "점심" as String
+        case 2:
+            view.foodLabel.text = "저녁" as String
+        case 3:
+            view.foodLabel.text = "간식" as String
+        default:
+            break
+        }
+        
         return view
     }
     
@@ -154,5 +167,15 @@ extension DailyViewController: DailySectionHeaderViewdelegate {
         print(indexPath)
         return indexPathValue
     }
+    
+//    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+//        switch section {
+//        case 0:
+//            return meal[0]
+//        default:
+//            return ""
+//        }
+//
+//    }
 }
 
