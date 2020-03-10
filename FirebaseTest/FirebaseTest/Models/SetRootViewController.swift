@@ -19,7 +19,7 @@ func setRootView(window: UIWindow) {
     
     let main = UINavigationController(rootViewController: MainViewController())
     let daily = UINavigationController(rootViewController: DailyViewController())
-    let record = UINavigationController(rootViewController: RecordViewController())
+    let record = UINavigationController(rootViewController: GraphViewController())
     
     main.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
     daily.tabBarItem = UITabBarItem(tabBarSystemItem: .recents, tag: 1)

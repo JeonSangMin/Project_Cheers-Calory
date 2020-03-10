@@ -87,8 +87,9 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
             AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
             
             delegate?.sendBarcodeData(barcode: stringValue)
-            self.navigationController?.popViewController(animated: true)
-        }
+            dismiss(animated: true)
+//            self.navigationController?.popViewController(animated: true)
+//        }
     }
     
 //    func found(code: String) {
@@ -105,3 +106,4 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
 //
 //
 //}
+}

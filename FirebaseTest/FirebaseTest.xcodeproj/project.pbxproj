@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		52723B25F7EF82971B7ED75C /* Pods_FirebaseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C12FAD2872B109F851BD0B /* Pods_FirebaseTest.framework */; };
+		F490218B241759720027DED4 /* FoodHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4902184241759720027DED4 /* FoodHeaderView.swift */; };
+		F490218C241759720027DED4 /* RecordGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4902185241759720027DED4 /* RecordGraphView.swift */; };
+		F490218D241759720027DED4 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4902186241759720027DED4 /* DailyView.swift */; };
+		F490218F241759720027DED4 /* RecordHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4902188241759720027DED4 /* RecordHeaderView.swift */; };
+		F4902191241759720027DED4 /* DailySectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490218A241759720027DED4 /* DailySectionHeaderView.swift */; };
+		F490219324175AA60027DED4 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490219224175AA60027DED4 /* GraphViewController.swift */; };
+		F4902195241763B90027DED4 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4902194241763B90027DED4 /* Daily.swift */; };
 		F49D02702410D6200093721B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D026F2410D6200093721B /* AppDelegate.swift */; };
 		F49D02742410D6200093721B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D02732410D6200093721B /* ViewController.swift */; };
 		F49D02792410D6270093721B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D02782410D6270093721B /* Assets.xcassets */; };
@@ -22,7 +29,7 @@
 		F4DC6B4D2415E27B004B9A6E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B4C2415E27B004B9A6E /* StartViewController.swift */; };
 		F4DC6B4F2415E299004B9A6E /* PhysicalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */; };
 		F4DC6B512415E2AD004B9A6E /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */; };
-		F4DC6B532415E2CC004B9A6E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B522415E2CC004B9A6E /* RecordViewController.swift */; };
+		F4DC6B532415E2CC004B9A6E /* FoodSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B522415E2CC004B9A6E /* FoodSearchViewController.swift */; };
 		F4DC6B552415E2F1004B9A6E /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B542415E2F1004B9A6E /* UIExtensions.swift */; };
 		F4DC6B7C241625C7004B9A6E /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC6B7B241625C7004B9A6E /* DAO.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +38,13 @@
 		27C12FAD2872B109F851BD0B /* Pods_FirebaseTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		404065FD874B57C96F23BA2D /* Pods-FirebaseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTest.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTest/Pods-FirebaseTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D4899D3D0F785B748E1C935C /* Pods-FirebaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTest.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTest/Pods-FirebaseTest.release.xcconfig"; sourceTree = "<group>"; };
+		F4902184241759720027DED4 /* FoodHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodHeaderView.swift; path = ../../../../../../Downloads/SwitchRootViewController/SwitchRootViewController/View/FoodHeaderView.swift; sourceTree = "<group>"; };
+		F4902185241759720027DED4 /* RecordGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordGraphView.swift; path = ../../../../../../Downloads/SwitchRootViewController/SwitchRootViewController/View/RecordGraphView.swift; sourceTree = "<group>"; };
+		F4902186241759720027DED4 /* DailyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyView.swift; path = ../../../../../../Downloads/SwitchRootViewController/SwitchRootViewController/View/DailyView.swift; sourceTree = "<group>"; };
+		F4902188241759720027DED4 /* RecordHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordHeaderView.swift; path = ../../../../../../Downloads/SwitchRootViewController/SwitchRootViewController/View/RecordHeaderView.swift; sourceTree = "<group>"; };
+		F490218A241759720027DED4 /* DailySectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailySectionHeaderView.swift; path = ../../../../../../Downloads/SwitchRootViewController/SwitchRootViewController/View/DailySectionHeaderView.swift; sourceTree = "<group>"; };
+		F490219224175AA60027DED4 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		F4902194241763B90027DED4 /* Daily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily.swift; sourceTree = "<group>"; };
 		F49D026C2410D6200093721B /* FirebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D026F2410D6200093721B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49D02732410D6200093721B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +54,8 @@
 		F49D02832410D73A0093721B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F49D02852410E5940093721B /* FoodCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCodable.swift; sourceTree = "<group>"; };
 		F49D02872410F62B0093721B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F4A93E822417AA83000370AA /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
+		F4A93E832417AA88000370AA /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		F4B203572412689000E8EB36 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F4DC6B462415E21B004B9A6E /* SetRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetRootViewController.swift; sourceTree = "<group>"; };
 		F4DC6B482415E241004B9A6E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +63,7 @@
 		F4DC6B4C2415E27B004B9A6E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalSettingViewController.swift; sourceTree = "<group>"; };
 		F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
-		F4DC6B522415E2CC004B9A6E /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		F4DC6B522415E2CC004B9A6E /* FoodSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchViewController.swift; sourceTree = "<group>"; };
 		F4DC6B542415E2F1004B9A6E /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		F4DC6B572415E3E3004B9A6E /* foods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = foods.json; sourceTree = "<group>"; };
 		F4DC6B7B241625C7004B9A6E /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
@@ -82,6 +98,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F49021822417593C0027DED4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F490218A241759720027DED4 /* DailySectionHeaderView.swift */,
+				F4902186241759720027DED4 /* DailyView.swift */,
+				F4902184241759720027DED4 /* FoodHeaderView.swift */,
+				F4902185241759720027DED4 /* RecordGraphView.swift */,
+				F4902188241759720027DED4 /* RecordHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F49D02632410D6200093721B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +131,8 @@
 		F49D026E2410D6200093721B /* FirebaseTest */ = {
 			isa = PBXGroup;
 			children = (
+				F4A93E812417AA77000370AA /* Cells */,
+				F49021822417593C0027DED4 /* View */,
 				F4DC6B582415E4AC004B9A6E /* ViewControllers */,
 				F4DC6B562415E3DB004B9A6E /* Models */,
 				F49D02782410D6270093721B /* Assets.xcassets */,
@@ -112,6 +142,15 @@
 				F49D027A2410D6270093721B /* LaunchScreen.storyboard */,
 			);
 			path = FirebaseTest;
+			sourceTree = "<group>";
+		};
+		F4A93E812417AA77000370AA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F4A93E822417AA83000370AA /* DailyTableViewCell.swift */,
+				F4A93E832417AA88000370AA /* RecordTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F4DC6B562415E3DB004B9A6E /* Models */ = {
@@ -124,6 +163,7 @@
 				F49D02872410F62B0093721B /* Food.swift */,
 				F49D02852410E5940093721B /* FoodCodable.swift */,
 				F4DC6B572415E3E3004B9A6E /* foods.json */,
+				F4902194241763B90027DED4 /* Daily.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,7 +177,8 @@
 				F4DC6B4C2415E27B004B9A6E /* StartViewController.swift */,
 				F4DC6B4E2415E299004B9A6E /* PhysicalSettingViewController.swift */,
 				F4DC6B502415E2AD004B9A6E /* DailyViewController.swift */,
-				F4DC6B522415E2CC004B9A6E /* RecordViewController.swift */,
+				F4DC6B522415E2CC004B9A6E /* FoodSearchViewController.swift */,
+				F490219224175AA60027DED4 /* GraphViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -257,18 +298,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F490218D241759720027DED4 /* DailyView.swift in Sources */,
 				F4DC6B7C241625C7004B9A6E /* DAO.swift in Sources */,
 				F4DC6B492415E241004B9A6E /* MainViewController.swift in Sources */,
 				F49D02742410D6200093721B /* ViewController.swift in Sources */,
+				F4902191241759720027DED4 /* DailySectionHeaderView.swift in Sources */,
 				F4DC6B552415E2F1004B9A6E /* UIExtensions.swift in Sources */,
+				F490218B241759720027DED4 /* FoodHeaderView.swift in Sources */,
 				F4DC6B512415E2AD004B9A6E /* DailyViewController.swift in Sources */,
-				F4DC6B532415E2CC004B9A6E /* RecordViewController.swift in Sources */,
+				F490218F241759720027DED4 /* RecordHeaderView.swift in Sources */,
+				F4DC6B532415E2CC004B9A6E /* FoodSearchViewController.swift in Sources */,
 				F4B203582412689000E8EB36 /* CameraViewController.swift in Sources */,
 				F49D02862410E5940093721B /* FoodCodable.swift in Sources */,
 				F4DC6B4F2415E299004B9A6E /* PhysicalSettingViewController.swift in Sources */,
+				F4902195241763B90027DED4 /* Daily.swift in Sources */,
 				F4DC6B4B2415E25F004B9A6E /* UserInfo.swift in Sources */,
 				F4DC6B4D2415E27B004B9A6E /* StartViewController.swift in Sources */,
+				F490218C241759720027DED4 /* RecordGraphView.swift in Sources */,
 				F49D02882410F62B0093721B /* Food.swift in Sources */,
+				F490219324175AA60027DED4 /* GraphViewController.swift in Sources */,
 				F49D02702410D6200093721B /* AppDelegate.swift in Sources */,
 				F4DC6B472415E21C004B9A6E /* SetRootViewController.swift in Sources */,
 			);
