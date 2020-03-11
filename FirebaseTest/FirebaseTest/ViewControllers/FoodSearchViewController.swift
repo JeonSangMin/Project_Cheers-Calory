@@ -151,7 +151,6 @@ extension FoodSearchViewController: UITableViewDataSource {
         if isFiltering {
             return filteredDatas.count
         }
-        
         return dataArr.count
     }
     
@@ -198,8 +197,16 @@ extension FoodSearchViewController: UITableViewDelegate {
         default: print("안됨")
         }
         dailyVC.tableView.reloadData()
+         
+        // 검색한 상태에서 선택하면 dismiss를 두 번 해줘야하니깐,
+        // presentingView 단에서 dismiss를 하면 됨
+        //검색하는 순간에는 그 위에 뷰가 하나 더 깔린거라고 봐야되는 듯
         
-        self.dismiss(animated: true)
+        if isFiltering {
+            self.presentingViewController?.dismiss(animated: true)
+        } else {
+            self.dismiss(animated: true)
+        }
         print(food)
     }
 }

@@ -147,6 +147,25 @@ extension DailyViewController: UITableViewDelegate {
         return view
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            switch indexPath.section {
+            case 0:
+                breakfast.remove(at: indexPath.row)
+            case 1:
+                lunch.remove(at: indexPath.row)
+            case 2:
+                dinner.remove(at: indexPath.row)
+            case 3:
+                snack.remove(at: indexPath.row)
+            default:
+                break
+            }
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+        tableView.reloadData()
+    }
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
